@@ -23,11 +23,10 @@ function detalles() {
     alert("Tienes atencion de prioridad baja. espere su llamado")
     else if (ubicacion [2]===false)
     alert ("Espere en la sala.")
-else(
-    alert("El medico en un momento lo atendera. ")
-    )    
+else{
+    alert("El medico en un momento lo atendera. ")    
 } 
-
+}
 alert ("Bienvenido")
 datosPacientes()
 let sintomas = confirm ("Tiene dolor")
